@@ -1,0 +1,5 @@
+connect --login johndoe --password abc2015 --host http://192.168.50.1:8080
+
+use backend#APPNAME
+deploy --path cu-ear/target/cu-ear-0.1.ear --openBrowser false
+disconnect

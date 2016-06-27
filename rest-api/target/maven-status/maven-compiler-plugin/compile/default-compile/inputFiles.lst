@@ -1,0 +1,13 @@
+/Users/nicolas/software/cloudunit-demo/rest-api/src/main/java/fr/treeptik/rest/configuration/JmsConfiguration.java
+/Users/nicolas/software/cloudunit-demo/rest-api/src/main/java/fr/treeptik/rest/controller/WebSocketController.java
+/Users/nicolas/software/cloudunit-demo/rest-api/src/main/java/fr/treeptik/rest/service/StockMessageService.java
+/Users/nicolas/software/cloudunit-demo/rest-api/src/main/java/fr/treeptik/rest/configuration/DatabaseConfigurationTomcat.java
+/Users/nicolas/software/cloudunit-demo/rest-api/src/main/java/fr/treeptik/rest/configuration/WebConfiguration.java
+/Users/nicolas/software/cloudunit-demo/rest-api/src/main/java/fr/treeptik/rest/dao/StockJPADAO.java
+/Users/nicolas/software/cloudunit-demo/rest-api/src/main/java/fr/treeptik/rest/dao/StockDAO.java
+/Users/nicolas/software/cloudunit-demo/rest-api/src/main/java/fr/treeptik/rest/initializer/ApplicationInitializer.java
+/Users/nicolas/software/cloudunit-demo/rest-api/src/main/java/fr/treeptik/rest/dao/StockStubDAO.java
+/Users/nicolas/software/cloudunit-demo/rest-api/src/main/java/fr/treeptik/rest/configuration/ApplicationConfiguration.java
+/Users/nicolas/software/cloudunit-demo/rest-api/src/main/java/fr/treeptik/rest/service/StockMessageServiceImpl.java
+/Users/nicolas/software/cloudunit-demo/rest-api/src/main/java/fr/treeptik/rest/configuration/DatabaseConfigurationJBoss.java
+/Users/nicolas/software/cloudunit-demo/rest-api/src/main/java/fr/treeptik/rest/configuration/AppWebSocketConfiguration.java

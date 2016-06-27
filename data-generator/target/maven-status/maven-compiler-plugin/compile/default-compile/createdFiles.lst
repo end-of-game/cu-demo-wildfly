@@ -1,0 +1,6 @@
+fr/treeptik/data/generator/service/StockMessageServiceImpl.class
+fr/treeptik/data/generator/configuration/ApplicationConfiguration.class
+fr/treeptik/data/generator/configuration/JmsConfiguration.class
+fr/treeptik/data/generator/configuration/WebConfiguration.class
+fr/treeptik/data/generator/service/StockMessageService.class
+fr/treeptik/rest/initializer/ApplicationInitializer.class

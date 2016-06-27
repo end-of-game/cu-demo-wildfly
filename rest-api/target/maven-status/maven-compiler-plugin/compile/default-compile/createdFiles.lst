@@ -1,0 +1,13 @@
+fr/treeptik/rest/controller/WebSocketController.class
+fr/treeptik/rest/dao/StockJPADAO.class
+fr/treeptik/rest/service/StockMessageServiceImpl.class
+fr/treeptik/rest/dao/StockDAO.class
+fr/treeptik/rest/configuration/AppWebSocketConfiguration.class
+fr/treeptik/rest/service/StockMessageService.class
+fr/treeptik/rest/configuration/DatabaseConfigurationJBoss.class
+fr/treeptik/rest/configuration/WebConfiguration.class
+fr/treeptik/rest/configuration/JmsConfiguration.class
+fr/treeptik/rest/configuration/ApplicationConfiguration.class
+fr/treeptik/rest/dao/StockStubDAO.class
+fr/treeptik/rest/configuration/DatabaseConfigurationTomcat.class
+fr/treeptik/rest/initializer/ApplicationInitializer.class

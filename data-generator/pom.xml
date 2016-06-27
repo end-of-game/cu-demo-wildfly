@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>fr.treeptik</groupId>
+		<artifactId>cloudunit-demo</artifactId>
+		<version>0.1</version>
+	</parent>
+	<artifactId>data-generator</artifactId>
+	<packaging>war</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>fr.treeptik</groupId>
+			<artifactId>base</artifactId>
+			<version>0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jboss.spec.javax.servlet</groupId>
+			<artifactId>jboss-servlet-api_3.1_spec</artifactId>
+			<version>1.0.0.Final</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/org.jboss/jboss-ejb-client -->
+		<dependency>
+			<groupId>org.jboss</groupId>
+			<artifactId>jboss-remote-naming</artifactId>
+			<version>1.0.7.Final</version>
+		</dependency>
+		<!-- http://mvnrepository.com/artifact/org.jboss.xnio/xnio-api -->
+		<dependency>
+			<groupId>org.jboss.xnio</groupId>
+			<artifactId>xnio-api</artifactId>
+			<version>3.3.6.Final</version>
+		</dependency>
+
+	</dependencies>
+
+
+</project>

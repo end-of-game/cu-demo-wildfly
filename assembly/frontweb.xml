@@ -1,0 +1,14 @@
+<assembly>
+  <id>bundle</id>
+  <formats>
+    <format>tar.gz</format>
+  </formats>
+  <includeBaseDirectory>false</includeBaseDirectory>
+  <fileSets>
+    <fileSet>
+      <directory>${basedir}/frontweb</directory>
+      <outputDirectory>frontweb</outputDirectory>
+    </fileSet>
+  </fileSets>
+</assembly>
+

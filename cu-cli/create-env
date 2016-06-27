@@ -1,0 +1,31 @@
+connect --login johndoe --password abc2015 --host http://192.168.50.1:8080
+
+create-app --name front-#APPNAME --type apache-2-2
+use front#APPNAME
+open-explorer --containerName dev-johndoe-front#APPNAME-apache-2-2
+list-files
+enter-directory var
+enter-directory www
+list-files
+upload-file --path frontweb-bundle.tar.gz
+unzip --file frontweb-bundle.tar.gz
+list-files
+close-explorer
+
+create-app --name backend-#APPNAME --type wildfly-10
+use backend#APPNAME
+add-jvm-option "-Dspring.profiles.active=jboss"
+add-module --name mysql-5-5
+open-explorer --containerName dev-johndoe-backend#APPNAME-wildfly-10
+list-files
+enter-directory cloudunit
+enter-directory appconf
+enter-directory wildfly
+enter-directory standalone
+enter-directory configuration
+upload-file --path configuration/standalone.xml
+close-explorer
+stop
+start
+
+disconnect
