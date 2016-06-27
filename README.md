@@ -1,1 +1,1 @@
-Hello AlpesJUG ISERE
+Hello VDM
