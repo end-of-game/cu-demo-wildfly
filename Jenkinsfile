@@ -9,7 +9,7 @@ node {
 
 stage "Build application EAR"
 node {
-    cloudunit.mvn 'clean package'
+    cloudunit.mvn 'clean package -o'
 }
 
 stage "Create CU-Server"
