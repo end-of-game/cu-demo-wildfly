@@ -23,8 +23,8 @@
             <td>{{compagny.name}}</td>
             <td>{{compagny.price | setDecimal:2}}</td>
             <td>{{compagny.changes | setDecimal:2}} 
-              <ng-md-icon ng-if="compagny.changes > 0" icon="trending_up" style="fill:green" size="24"></ng-md-icon>
-              <ng-md-icon ng-if="compagny.changes < 0" icon="trending_down" style="fill:red" size="24"></ng-md-icon>
+              <ng-md-icon ng-if="compagny.share > 0" icon="trending_up" style="fill:green" size="24"></ng-md-icon>
+              <ng-md-icon ng-if="compagny.share < 0" icon="trending_down" style="fill:red" size="24"></ng-md-icon>
             </td>
             <td>{{compagny.share }}</td>
             <td>{{compagny.value | setDecimal:2}} </td>
