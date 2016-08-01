@@ -1,0 +1,38 @@
+def cloudunit
+
+stage "Init SCM"
+node {
+    checkout scm
+    cloudunit = load 'cloudunit.groovy'
+    cloudunit.install_cli()
+}
+
+stage "Build Backend"
+node {
+    cloudunit.mvn 'clean package -DskipTests'
+}
+
+stage "Build AngularApp"
+node {
+    def nodeHome = tool 'NODE630'
+    env.PATH="${env.PATH}:${nodeHome}/bin"
+    cloudunit.npm 'install'
+    cloudunit.gulp 'sass'
+}
+
+stage "Create FrontWeb"
+node {
+    cloudunit.compress('frontweb', 'tomcat/frontweb')
+    cloudunit.callAction 'cloudunit/actions/frontweb.cmd'
+}
+
+stage "Create Backend"
+node {
+    cloudunit.callAction 'cloudunit/actions/backend.cmd'
+}
+
+stage "Deploy applications"
+node {
+    cloudunit.callAction 'cloudunit/actions/deploy-apps.cmd'
+}
+
